@@ -60,3 +60,6 @@ ignore = [
 [tool.mypy]
 files = ["src/"]
 disallow_untyped_defs = true
+
+[project.scripts]
+cvo251203app = "cvo251203app.__main__:main"
